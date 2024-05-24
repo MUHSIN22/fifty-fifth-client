@@ -1,0 +1,85 @@
+/*=============================
+    01. Banner area start
+===============================*/
+
+.banner_area {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+.banner_text {
+  max-width: 418px;
+  margin-left: auto;
+  margin-right: 162px;
+  margin-bottom: 92px;
+}
+
+.banner_area .button {
+  position: absolute;
+  top: 23px;
+  left: 27px;
+}
+
+.banner_text .title {
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 103.7%;
+  color: var(--color-white);
+  margin-top: 82px;
+  font-family: var(--font-acma);
+}
+
+.banner_navigation {
+  margin-left: 127px;
+  margin-bottom: 101px;
+}
+
+.banner_navigation .short_title {
+  font-size: 10px;
+  font-weight: 300;
+  color: var(--color-white);
+  text-transform: uppercase;
+  margin-top: 22px;
+}
+
+.banner_navigation .short_title span {
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--color-white);
+  text-transform: uppercase;
+}
+
+.navigation_main {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navigation_main .number {
+  font-size: 8px;
+  color: var(--color-white);
+  font-weight: 300;
+}
+
+.navigation_main .nav_counter ul {
+  list-style: none;
+}
+
+.navigation_main .nav_counter ul li {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  border: 1px solid var(--color-white);
+  transform: rotate(45deg);
+  margin-left: 3px;
+}
+
+.navigation_main .nav_counter ul li.active {
+  background-color: var(--color-white);
+}

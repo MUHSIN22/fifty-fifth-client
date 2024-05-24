@@ -1,0 +1,138 @@
+/*==========================
+  Import PP Acma font
+============================*/
+@font-face {
+  font-family: "PP Acma";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/fonts/PP Acma/PPAcma-Regular.otf");
+}
+@font-face {
+  font-family: "PP Acma";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/assets/fonts/PP Acma/PPAcma-Medium.otf");
+}
+@font-face {
+  font-family: "PP Acma";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/assets/fonts/PP Acma/PPAcma-Semibold.otf");
+}
+
+/*==========================
+  Import PP Neue font
+============================*/
+@font-face {
+  font-family: "PP Neue";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/fonts/PP Neue/PPNeueMontreal-Regular.otf");
+}
+
+/*==========================
+  Import PP Prgmatic font
+============================*/
+@font-face {
+  font-family: "Pragmatic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/fonts/Pragmatic/PragmaticaExtended-Medium.ttf");
+}
+@font-face {
+  font-family: "Pragmatic";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/assets/fonts/Pragmatic/PragmaticaExtended-Bold.ttf");
+}
+@font-face {
+  font-family: "Pragmatic";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/assets/fonts/Pragmatic/PragmaticaExtended-ExtraBold.ttf");
+}
+
+/* Base styles */
+.text-base {
+  font-family: var(--font-pragmatic);
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem;
+  color: #333;
+}
+
+/* Headings */
+.heading-xl {
+  font-size: 3rem;
+  line-height: 1.2;
+} /* 48px */
+.heading-lg {
+  font-size: 2.25rem;
+  line-height: 1.3;
+} /* 36px */
+.heading-md {
+  font-size: 1.5rem;
+  line-height: 1.4;
+} /* 24px */
+.heading-sm {
+  font-size: 1.125rem;
+  line-height: 1.5;
+} /* 18px */
+
+/* Paragraphs */
+.paragraph {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  margin-bottom: 1rem;
+} /* 16px */
+.paragraph-sm {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+} /* 14px */
+
+/* Links */
+.link {
+  color: #007bff;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Special text */
+.text-bold {
+  font-weight: bold;
+}
+.text-italic {
+  font-style: italic;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-lowercase {
+  text-transform: lowercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+
+/* Font familly */
+.text-acma {
+  font-family: var(--font-acma);
+}
+.text-neue {
+  font-family: var(--font-neue);
+}
+.text-pragmatic {
+  font-family: var(--font-pragmatic);
+}
