@@ -84,3 +84,52 @@
 .navigation_main .nav_counter ul li.active {
   background-color: var(--color-white);
 }
+
+/*==========================
+      Sectors Section
+============================ */
+.sectors-section {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-left: 3rem;
+}
+.sectors-section header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+.sectors-card {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  width: 60vw;
+  gap: 3rem;
+}
+.sectors-card-wrapper {
+  padding-left: 3rem;
+  overflow: hidden;
+}
+.sectors-card-container{
+  display: grid;
+  grid-auto-flow: column dense;
+  gap: 20%;
+}
+.sectors-card-content {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.heading-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.sectors-section .sectors-card-thumbnail {
+  width: 100%;
+  aspect-ratio: 82/57;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+}

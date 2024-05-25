@@ -167,6 +167,9 @@
   .heading-2xl {
     font-size: 4rem;
   }
+  .heading-xl {
+    font-size: 2rem;
+  }
   .paragraph {
     font-size: 0.875rem;
     line-height: 1.8em;
@@ -178,5 +181,10 @@
   .paragraph-xs {
     font-size: 0.625rem;
     line-height: 1.8em;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .heading-xl {
+    font-size: 1.5rem;
   }
 }
