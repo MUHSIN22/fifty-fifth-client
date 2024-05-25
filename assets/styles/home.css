@@ -110,6 +110,7 @@
   justify-content: center;
 }
 .ladder_container {
+  height: 100%;
   display: grid;
   position: relative;
   grid-template-rows: repeat(auto-fill, minmax(20px, 1fr));
@@ -123,6 +124,7 @@
   bottom: 0;
   width: 1px;
   background-color: #333;
+
 }
 .ladder_container::before {
   left: 0;
@@ -138,6 +140,10 @@
   align-self: center;
 }
 
+.ladder_element:last-child{
+  border-bottom: 0;
+}
+
 .welcome_container {
   display: flex;
   flex-direction: column;
@@ -146,10 +152,9 @@
 }
 
 .welcome_content {
-  font-family: PP Acma;
+  font-family: var(--font-acma);
   font-size: 2.5rem;
   text-align: center;
-  padding: 0 13%;
   color: var(--color-text-dark);
 }
 
@@ -180,7 +185,7 @@
 }
 
 .film_card_container h1 {
-  font-family: PP Acma;
+  font-family: var(--font-acma);
   color: var(--color-text-dark);
 }
 
@@ -200,13 +205,15 @@
 .film_content_container {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 5rem;
+  gap: 2rem;
 }
 
 .film_details_main_wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  gap: 4rem;
 }
 .film_details_inner_wrapper {
   display: flex;
@@ -219,6 +226,7 @@
   gap: 1rem;
 
 }
+
 .film_about_section_container p {
   color: var(--color-text-dark);
 }
@@ -229,13 +237,15 @@
 
 .film_poster_container img {
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
+  height: 100%;
   object-position: center;
 }
 
 .sector_year_container {
   display: flex;
   width: 70%;
+  color: var(--color-text-dark);
 }
 .sector_year_container div {
   width: 100%;
@@ -275,8 +285,9 @@
 }
 
 .approach_content {
-  font-family: PP Acma;
+  font-family: var(--font-acma);
   font-size: 2.5rem;
+  color:var(--color-text-dark)
 }
 
 .service_container {
@@ -285,11 +296,15 @@
   gap: 1rem;
 }
 
+.service_container p {
+  color: var(--color-text-dark);
+}
+
 .service_list {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  font-family: PP Neue;
+  gap: 0.5rem;
+  font-family: var(--font-neue);
   font-weight: 100;
 }
 
