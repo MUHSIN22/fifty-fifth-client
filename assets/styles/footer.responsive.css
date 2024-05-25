@@ -1,0 +1,43 @@
+  /* For Mid size devices */
+  @media only screen and (min-width: 550px) {
+    .footer-content-grid {
+      grid-template-columns: 1.5fr 1fr;
+      border: 1px solid var(--color-white);
+    }
+    .footer-brand-section {
+      padding: 1.5rem;
+      gap: 1.5rem;
+    }
+    .bullet-heading::before {
+      width: 16px;
+      height: 16px;
+    }
+    .latest-journal-card-container {
+      padding: 1rem;
+      border-left: 1px solid var(--color-white);
+    }
+    .slide-text-container {
+      border-left: 1px solid var(--color-white);
+    }
+    .links-container {
+      padding: 1rem;
+      border-left: 1px solid var(--color-white);
+    }
+  }
+  
+  /* For larger devices */
+  @media only screen and (min-width: 1024px) {
+    .footer-main {
+      padding: 3rem;
+    }
+    .footer-brand-section {
+      padding: 3rem;
+      gap: 3rem;
+    }
+    .latest-journal-card-container {
+      padding: 3rem;
+    }
+    .links-container {
+      padding: 3rem;
+    }
+  }

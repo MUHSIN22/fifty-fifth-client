@@ -78,6 +78,7 @@
   border: 1px solid var(--color-white);
   transform: rotate(45deg);
   margin-left: 3px;
+  cursor: pointer;
 }
 
 .navigation_main .nav_counter ul li.active {

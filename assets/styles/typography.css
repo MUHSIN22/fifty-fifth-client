@@ -37,6 +37,12 @@
   font-family: "Pragmatic";
   font-style: normal;
   font-weight: 400;
+  src: url("/assets/fonts/Pragmatic/PragmaticaExtended-Light.ttf");
+}
+@font-face {
+  font-family: "Pragmatic";
+  font-style: normal;
+  font-weight: 500;
   src: url("/assets/fonts/Pragmatic/PragmaticaExtended-Medium.ttf");
 }
 @font-face {
@@ -54,13 +60,16 @@
 
 /* Base styles */
 .text-base {
-  font-family: var(--font-pragmatic);
+  font-family: "Pragmatic", sans-serif;
   font-size: 1rem; /* 16px */
-  line-height: 1.5rem;
   color: #333;
 }
 
 /* Headings */
+.heading-2xl {
+  font-size: 6rem;
+  line-height: 1.2;
+}
 .heading-xl {
   font-size: 3rem;
   line-height: 1.2;
@@ -81,13 +90,17 @@
 /* Paragraphs */
 .paragraph {
   font-size: 1rem;
-  line-height: 1.6rem;
-  margin-bottom: 1rem;
+  line-height: 1.8em;
 } /* 16px */
 .paragraph-sm {
   font-size: 0.875rem;
-  line-height: 1.5rem;
+  line-height: 1.6em;
 } /* 14px */
+.paragraph-xs {
+  font-size: 0.75rem;
+  line-height: 1.8em;
+} /* 
+
 
 /* Links */
 .link {
@@ -135,4 +148,35 @@
 }
 .text-pragmatic {
   font-family: var(--font-pragmatic);
+}
+
+/* text-colors */
+.text-white {
+  color: var(--color-white);
+}
+.text-dark {
+  color: var(--color-text-dark);
+}
+.text-light {
+  color: var(--color-text-light);
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  .heading-2xl {
+    font-size: 4rem;
+  }
+  .paragraph {
+    font-size: 0.875rem;
+    line-height: 1.8em;
+  }
+  .paragraph-sm {
+    font-size: 0.75rem;
+    line-height: 1.9em;
+  }
+  .paragraph-xs {
+    font-size: 0.625rem;
+    line-height: 1.8em;
+  }
 }
