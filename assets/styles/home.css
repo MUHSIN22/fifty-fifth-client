@@ -100,7 +100,7 @@
 }
 .showcase_wrapper {
   /* margin-top: 2rem; */
-  padding: 3rem 3rem 5rem;
+  padding: 2rem 3rem 5rem;
 
   gap: 3rem;
 
@@ -123,7 +123,7 @@
   top: 0;
   bottom: 0;
   width: 1px;
-  background-color: #333;
+  background-color: #574C3E;
 }
 .ladder_container::before {
   left: 0;
@@ -132,10 +132,9 @@
   right: 0;
 }
 .ladder_element {
-  width: 1.5rem;
-  height: 3rem;
-
-  border-bottom: 1px solid black;
+  width: 1.8rem;
+  height: 2.8rem;
+  border-bottom: 1px solid #574C3E;
   align-self: center;
 }
 
@@ -148,6 +147,7 @@
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
+  padding: 1rem;
 }
 
 .welcome_content {
@@ -161,6 +161,10 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
+}
+
+.hidden_in_desktop_brand_container {
+  display: none;
 }
 
 .brand_container img {
@@ -183,6 +187,14 @@
   gap: 3rem;
 }
 
+.film_card_wrapper_second_card {
+  background: var(--color-primary-400);
+}
+
+.film_card_wrapper_third_card {
+  background: var(--color-primary-500);
+}
+
 .film_card_container h1 {
   font-family: var(--font-acma);
   color: var(--color-text-dark);
@@ -191,6 +203,7 @@
 .card_header_wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header_brands_container {
@@ -229,8 +242,8 @@
   color: var(--color-text-dark);
 }
 
-.film_tags {
-  color: var(--color-text-dark);
+.about_text {
+  max-width: 75%;
 }
 
 .film_poster_container img {
@@ -238,11 +251,13 @@
   object-fit: cover;
   height: 100%;
   object-position: center;
+  border-radius: 10px;
 }
 
 .sector_year_container {
   display: flex;
   width: 70%;
+  gap: 1rem;
   color: var(--color-text-dark);
 }
 .sector_year_container div {
@@ -255,7 +270,8 @@
 }
 .film_tags {
   background: #72727236;
-  padding: 0.5rem;
+  color: var(--color-text-dark);
+  padding: 0.2rem 0.5rem;
 }
 
 /* film card container  ends here*/
@@ -333,6 +349,7 @@
   padding-left: 3rem;
   overflow: hidden;
 }
+
 .sectors-card-container {
   display: grid;
   grid-auto-flow: column dense;

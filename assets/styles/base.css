@@ -111,7 +111,7 @@ p {
   text-transform: uppercase;
   border-radius: 38px;
   border: 1px solid #00000033;
-  padding: 1rem 2rem;
+  padding: 0.8rem 2rem;
   font-family: var(--font-pragmatic);
   color: var(--color-text-dark);
 }
@@ -123,8 +123,10 @@ p {
   font-size: 0.75rem;
   display: flex;
   justify-content: center;
+  text-transform: uppercase;
   align-items: center;
   gap: 0.5rem;
+  color: var(--color-text-dark);
   width: max-content;
 }
 .bullet-subheading_brown::before {
@@ -182,6 +184,9 @@ p {
     padding: 0 1rem;
   }
 
+  .secondary_button{
+    padding: 0.6rem 1.3rem;
+  }
   .section-spacing-y {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -192,7 +197,6 @@ p {
   .primary_button {
     padding: 0.7rem 1rem;
   }
-  .secondary_button {
-    width: 100%;
-  }
+  
+
 }
