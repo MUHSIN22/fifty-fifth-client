@@ -5,7 +5,7 @@
   font-family: "PP Acma";
   font-style: normal;
   font-weight: 400;
-  src: url("./assets/fonts/PP Acma/PPAcma-Regular.otf");
+  src: url("/assets/fonts/PP Acma/PPAcma-Regular.otf");
 }
 @font-face {
   font-family: "PP Acma";
@@ -27,7 +27,7 @@
   font-family: "PP Neue";
   font-style: normal;
   font-weight: 400;
-  src: url("/assets/fonts/PP Neue/PPNeueMontreal-Regular.otf");
+  src: url("./assets/fonts/PP Neue/PPNeueMontreal-Regular.otf");
 }
 
 /*==========================
@@ -37,7 +37,7 @@
   font-family: "Pragmatic";
   font-style: normal;
   font-weight: 400;
-  src: url("/assets/fonts/Pragmatic/PragmaticaExtended-Light.ttf");
+  src: url("./assets/fonts/Pragmatic/PragmaticaExtended-Light.ttf");
 }
 @font-face {
   font-family: "Pragmatic";
@@ -49,13 +49,13 @@
   font-family: "Pragmatic";
   font-style: normal;
   font-weight: 600;
-  src: url("/assets/fonts/Pragmatic/PragmaticaExtended-Bold.ttf");
+  src: url("./assets/fonts/Pragmatic/PragmaticaExtended-Bold.ttf");
 }
 @font-face {
   font-family: "Pragmatic";
   font-style: normal;
   font-weight: 700;
-  src: url("/assets/fonts/Pragmatic/PragmaticaExtended-ExtraBold.ttf");
+  src: url("./assets/fonts/Pragmatic/PragmaticaExtended-ExtraBold.ttf");
 }
 
 /* Base styles */

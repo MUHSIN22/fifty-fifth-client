@@ -145,6 +145,9 @@
     grid-template-columns: 1fr;
     gap: 1rem;
   }
+  .sectors-section .sectors-card-thumbnail {
+    height: auto;
+  }
 
   .welcome_container {
     padding: 0;
@@ -200,14 +203,15 @@
   }
 
   .ladder_element:nth-last-child(2),
-  .ladder_element:nth-last-child(3),.ladder_element:nth-last-child(4) {
+  .ladder_element:nth-last-child(3),
+  .ladder_element:nth-last-child(4) {
     display: none;
   }
   .ladder_element:nth-last-child(5) {
     border-bottom: none;
   }
 
-  .showcase_wrapper{
+  .showcase_wrapper {
     gap: 1.5rem;
     padding: 1rem 1rem 1.5rem;
   }
