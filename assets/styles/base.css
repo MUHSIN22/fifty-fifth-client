@@ -106,7 +106,6 @@ p {
   margin-left: 3px;
 }
 
-
 .secondary_button {
   background: var(--color-primary-300);
   text-transform: uppercase;
@@ -121,7 +120,7 @@ p {
 }
 
 .bullet-subheading_brown {
-  font-size: 1rem;
+  font-size: 0.75rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -135,7 +134,6 @@ p {
   border-radius: 50%;
   background: var(--color-text-dark);
 }
-
 
 .bullet-subheading {
   font-size: 0.75rem;
@@ -188,18 +186,11 @@ p {
   }
 }
 
-
-
-@media only screen and (max-width:450px) {
-  .primary_button{
-
+@media only screen and (max-width: 450px) {
+  .primary_button {
     padding: 0.7rem 1rem;
   }
-  .secondary_button{
+  .secondary_button {
     width: 100%;
   }
-
-
- 
 }
-
