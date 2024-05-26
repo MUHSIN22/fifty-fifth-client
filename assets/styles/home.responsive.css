@@ -175,6 +175,9 @@
   .film_tags {
     font-size: 0.8rem;
   }
+  .service_list{
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 500px) {
