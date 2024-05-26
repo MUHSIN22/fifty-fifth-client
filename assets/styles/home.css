@@ -165,6 +165,8 @@
 
 .hidden_in_desktop_brand_container {
   display: none;
+  max-width: 100%;
+  overflow: none;
 }
 
 .brand_container img {
