@@ -51,6 +51,36 @@
   .approach_content {
     font-size: 1.8rem;
   }
+
+  .film_details_main_wrapper {
+    gap: 2rem;
+  }
+  .film_details_inner_wrapper {
+    gap: 0.5rem;
+  }
+  .film_card_wrapper {
+    gap: 1rem;
+  }
+  .film_content_container {
+    gap: 1rem;
+  }
+  .film_about_section_container {
+    gap: 0.5rem;
+  }
+
+  .about_text {
+    max-width: 100%;
+  }
+
+  .ladder_element:nth-last-child(1) {
+    display: none;
+  }
+  .ladder_element:nth-last-child(2) {
+    border-bottom: none;
+  }
+  .showcase_wrapper {
+    padding: 2rem 3rem 4rem;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -106,8 +136,7 @@
   }
 
   .showcase_wrapper {
-    padding: 1rem 1rem 3rem;
-    overflow: scroll;
+    padding: 1rem 1rem 2rem;
   }
 }
 
@@ -115,6 +144,16 @@
   .sectors-card {
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+
+  .welcome_container {
+    padding: 0;
+  }
+  .hidden_in_mobile {
+    display: none;
+  }
+  .hidden_in_desktop_brand_container {
+    display: flex;
   }
   .banner_text {
     max-width: 418px;
@@ -159,6 +198,19 @@
   .showcase_container {
     padding: 1rem;
   }
+
+  .ladder_element:nth-last-child(2),
+  .ladder_element:nth-last-child(3),.ladder_element:nth-last-child(4) {
+    display: none;
+  }
+  .ladder_element:nth-last-child(5) {
+    border-bottom: none;
+  }
+
+  .showcase_wrapper{
+    gap: 1.5rem;
+    padding: 1rem 1rem 1.5rem;
+  }
 }
 
 @media (max-width: 650px) {
@@ -175,8 +227,19 @@
   .film_tags {
     font-size: 0.8rem;
   }
-  .service_list{
+  .film_tags:nth-last-child(2) {
+    display: none;
+  }
+
+  .service_list {
     font-size: 0.9rem;
+  }
+
+  .ladder_element:nth-last-child(5) {
+    display: none;
+  }
+  .ladder_element:nth-last-child(6) {
+    border-bottom: none;
   }
 }
 
@@ -195,14 +258,11 @@
   .sectors-section {
     gap: 2rem;
   }
-}
-
-@media (max-width: 470px) {
-  .film_tags_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    text-align: center;
+  .sector_year_container {
+    justify-content: space-between;
+    width: 100%;
   }
+
   .film_tags:last-child {
     width: 2rem;
   }
@@ -216,8 +276,19 @@
     display: flex;
     flex-direction: column;
   }
+  .showcase_wrapper {
+    padding: 1rem;
+  }
 
   .welcome_content {
     font-size: 0.9rem;
+  }
+
+  .ladder_element:nth-last-child(4),
+  .ladder_element:nth-last-child(5) {
+    display: none;
+  }
+  .ladder_element:nth-last-child(6) {
+    border-bottom: none;
   }
 }
