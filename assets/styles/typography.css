@@ -5,19 +5,19 @@
   font-family: "PP Acma";
   font-style: normal;
   font-weight: 400;
-  src: url("/assets/fonts/PP Acma/PPAcma-Regular.otf");
+  src: url("./assets/fonts/PP Acma/PPAcma-Regular.otf");
 }
 @font-face {
   font-family: "PP Acma";
   font-style: normal;
   font-weight: 500;
-  src: url("/assets/fonts/PP Acma/PPAcma-Medium.otf");
+  src: url("./assets/fonts/PP Acma/PPAcma-Medium.otf");
 }
 @font-face {
   font-family: "PP Acma";
   font-style: normal;
   font-weight: 600;
-  src: url("/assets/fonts/PP Acma/PPAcma-Semibold.otf");
+  src: url("./assets/fonts/PP Acma/PPAcma-Semibold.otf");
 }
 
 /*==========================
