@@ -288,6 +288,10 @@
     font-size: 0.9rem;
   }
 
+  .card_header_wrapper{
+    gap: 0.5rem;
+  }
+
   .ladder_element:nth-last-child(4),
   .ladder_element:nth-last-child(5) {
     display: none;
