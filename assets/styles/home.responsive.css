@@ -1,120 +1,115 @@
 @media (max-width: 1399.98px) {
-    .banner_text {
-      max-width: 418px;
-      margin-left: auto;
-      margin-right: 62px;
-      margin-bottom: 42px;
-    }
-  
-    .banner_text .title {
-      font-size: 70px;
-      margin-top: 42px;
-    }
-  
-    .banner_navigation {
-      margin-left: 37px;
-      margin-bottom: 45px;
-    }
-    .approach_content {
-      font-size: 2rem;
-    }
-    .service_list {
-      gap: 0.5rem;
-    }
-  
-    .film_content_container {
-      grid-template-columns: 1fr 1.5fr;
-    }
-    .sectors-card-container {
-      display: grid;
-      grid-auto-flow: column dense;
-      gap: 10%;
-    }
-    .sectors-card {
-      width: 80vw;
-    }
+  .banner_text {
+    max-width: 418px;
+    margin-left: auto;
+    margin-right: 62px;
+    margin-bottom: 42px;
   }
 
-  @media (max-width: 1150px) {
-    .film_content_container {
-      display: flex;
-      flex-direction: column-reverse;
-    }
-
-    .welcome_content{
-      font-size: 2.2rem;
-    }
-    .brand_container img{
-        width: 7rem;
-        height: 5rem;
-    }
-    .approach_content {
-      font-size: 1.8rem;
-    }
+  .banner_text .title {
+    font-size: 70px;
+    margin-top: 42px;
   }
- 
 
+  .banner_navigation {
+    margin-left: 37px;
+    margin-bottom: 45px;
+  }
+  .approach_content {
+    font-size: 2rem;
+  }
+  .service_list {
+    gap: 0.5rem;
+  }
 
-
-  @media (max-width:991.98px) {
-    .banner_area .button {
-      position: absolute;
-      top: 19px;
-      left: 19px;
-    }
-  
-    .banner_text {
-      max-width: 100%;
-      margin-left: 0;
-      margin-right: 0;
-      margin-bottom: 0;
-      text-align: center;
-      padding: 140px 16px;
-    }
-  
-    .banner_navigation {
-      margin-left: 0;
-      margin-bottom: 0;
-      position: absolute;
-      bottom: 24px;
-    }
-  
-    .banner_text .title {
-      font-size: 40px;
-      text-align: center;
-    }
-  
-    .banner_area {
-      align-items: center;
-      flex-direction: column;
-      justify-content: center;
-    }
-  
-    .banner_text .title {
-      margin-top: 12px;
-    }
-    .sectors-section {
-      padding-left: 0rem;
-    }
-
-    .approach_service_main {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-      padding: 2rem;
-    }
-  
-    .welcome_content{
-      font-size: 2rem;
-    }
-
-    .showcase_wrapper{
-      padding: 1rem 1rem 3rem;
-      overflow: scroll;
-    }
+  .film_content_container {
+    grid-template-columns: 1fr 1.5fr;
+  }
+  .sectors-card-container {
+    display: grid;
+    grid-auto-flow: column dense;
+    gap: 10%;
+  }
+  .sectors-card {
+    width: 80vw;
+  }
 }
 
+@media (max-width: 1150px) {
+  .film_content_container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 
+  .welcome_content {
+    font-size: 2.2rem;
+  }
+  .brand_container img {
+    width: 7rem;
+    height: 5rem;
+  }
+  .approach_content {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .banner_area .button {
+    position: absolute;
+    top: 19px;
+    left: 19px;
+  }
+
+  .banner_text {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 140px 16px;
+  }
+
+  .banner_navigation {
+    margin-left: 0;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 24px;
+  }
+
+  .banner_text .title {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .banner_area {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .banner_text .title {
+    margin-top: 12px;
+  }
+  .sectors-section {
+    padding-left: 0rem;
+  }
+
+  .approach_service_main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .welcome_content {
+    font-size: 2rem;
+  }
+
+  .showcase_wrapper {
+    padding: 1rem 1rem 3rem;
+    overflow: scroll;
+  }
+}
 
 @media only screen and (max-width: 769px) {
   .sectors-card {
@@ -136,9 +131,6 @@
     padding-bottom: 1rem;
   }
 
-}
-
-@media (max-width: 750px) {
   .film_card_container {
     padding: 1rem;
   }
@@ -159,19 +151,16 @@
     width: 5rem;
     height: 3rem;
   }
-  .welcome_content{
+  .welcome_content {
     font-size: 1.6rem;
   }
-  .brand_container{
-    overflow: scroll;
+  .brand_container {
     gap: 3rem;
   }
-  .showcase_container{
+  .showcase_container {
     padding: 1rem;
   }
 }
-
-
 
 @media (max-width: 650px) {
   .approach_content {
@@ -180,8 +169,12 @@
   .button_wrapper {
     width: 100%;
   }
-  .welcome_content{
+  .welcome_content {
     font-size: 1.3rem;
+  }
+
+  .film_tags {
+    font-size: 0.8rem;
   }
 }
 
@@ -190,12 +183,10 @@
     padding: 1rem;
   }
 
-  .welcome_content{
+  .welcome_content {
     font-size: 1.1rem;
   }
-}
 
-@media only screen and (max-width: 490px) {
   .sectors-card-wrapper {
     padding-left: 1rem;
   }
@@ -213,7 +204,7 @@
   .film_tags:last-child {
     width: 2rem;
   }
-  .brand_container{
+  .brand_container {
     gap: 2rem;
   }
 }
@@ -224,7 +215,7 @@
     flex-direction: column;
   }
 
-  .welcome_content{
+  .welcome_content {
     font-size: 0.9rem;
   }
 }
