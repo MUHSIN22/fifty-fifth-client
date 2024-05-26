@@ -183,6 +183,15 @@
   gap: 3rem;
 }
 
+.film_card_wrapper_second_card{
+  background: var(--color-primary-400); 
+}
+
+.film_card_wrapper_third_card{
+  background: var(--color-primary-500); 
+}
+
+
 .film_card_container h1 {
   font-family: var(--font-acma);
   color: var(--color-text-dark);
