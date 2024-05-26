@@ -251,7 +251,9 @@
   .approach_service_main {
     padding: 1rem;
   }
-
+.brand_container{
+  width: 10rem;
+}
   .welcome_content {
     font-size: 1.1rem;
   }
