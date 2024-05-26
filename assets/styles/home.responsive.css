@@ -119,8 +119,7 @@
   .banner_text {
     max-width: 418px;
     margin-left: auto;
-    margin-right: 62px;
-    margin-bottom: 42px;
+    margin-right: auto;
   }
   .sectors-card-wrapper {
     padding-left: 2rem;
