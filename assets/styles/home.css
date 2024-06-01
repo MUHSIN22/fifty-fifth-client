@@ -90,6 +90,7 @@
 .showcase_container {
   background: var(--color-primary-200);
   padding: 2rem;
+  width: 100%;
 }
 
 .showcase_main {
@@ -99,11 +100,9 @@
   display: flex;
 }
 .showcase_wrapper {
-  /* margin-top: 2rem; */
   padding: 2rem 3rem 5rem;
-
   gap: 3rem;
-
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -123,7 +122,7 @@
   top: 0;
   bottom: 0;
   width: 1px;
-  background-color: #574C3E;
+  background-color: #574c3e;
 }
 .ladder_container::before {
   left: 0;
@@ -134,7 +133,7 @@
 .ladder_element {
   width: 1.8rem;
   height: 2.8rem;
-  border-bottom: 1px solid #574C3E;
+  border-bottom: 1px solid #574c3e;
   align-self: center;
 }
 
@@ -163,8 +162,13 @@
   justify-content: space-between;
 }
 
+.brand_marque_container {
+  width: 100%;
+}
+
 .hidden_in_desktop_brand_container {
   display: none;
+  width: 100%;
 }
 
 .brand_container img {
@@ -218,6 +222,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 2rem;
+ 
 }
 
 .film_details_main_wrapper {

@@ -4,6 +4,8 @@
   --color-primary-400: #dbcfbf;
   --color-primary-500: #cbbfae;
   --color-white: #ffffff;
+  --color-white-100:#FFFFFF9E;
+  --color-grey:#FFFFFF2E;
   --color-dark: #252323;
   --color-text-dark: #574c3e;
   --color-text-light: #f1ebdd;
@@ -119,6 +121,26 @@ p {
   margin-left: 3px;
 }
 
+.border-bottom{
+  border-bottom: 1px solid #574c3e;
+}
+
+.background_none {
+  background: none !important;
+}
+
+.padding_none{
+  padding: 0 !important;
+}
+
+.paddingX{
+  padding: 1rem 0;
+}
+
+.padding-bottomXl{
+  padding-bottom: 3rem;
+}
+
 .bullet-subheading_brown {
   font-size: 0.75rem;
   display: flex;
@@ -129,6 +151,7 @@ p {
   color: var(--color-text-dark);
   width: max-content;
 }
+
 .bullet-subheading_brown::before {
   content: "";
   width: 10px;
@@ -136,6 +159,27 @@ p {
   border-radius: 50%;
   background: var(--color-text-dark);
 }
+
+
+.bullet-subheading_white {
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-white);
+  width: max-content;
+}
+
+.bullet-subheading_white::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-white);
+}
+
 
 .bullet-subheading {
   font-size: 0.75rem;
@@ -193,6 +237,7 @@ p {
     padding-bottom: 2rem;
   }
 }
+
 
 @media only screen and (max-width: 450px) {
   .primary_button {
