@@ -6,7 +6,7 @@
   --color-white: #ffffff;
   --color-white-100:#FFFFFF9E;
   --color-grey:#FFFFFF2E;
-  --color-dark: #252323;
+  --color-dark: #181818;
   --color-text-dark: #574c3e;
   --color-text-light: #f1ebdd;
   --color-text-dark-faded: #574c3e70;
@@ -170,6 +170,7 @@ p {
   gap: 0.5rem;
   color: var(--color-white);
   width: max-content;
+  font-weight: 400;
 }
 
 .bullet-subheading_white::before {
