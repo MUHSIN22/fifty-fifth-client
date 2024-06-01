@@ -161,6 +161,7 @@
 /* Font familly */
 .text-acma {
   font-family: var(--font-acma);
+  font-weight: 400;
 }
 .text-neue {
   font-family: var(--font-neue);
@@ -199,6 +200,9 @@
   .heading-lg {
     font-size: 1.75rem;
     line-height: 1.3;
+  }
+  .heading-md{
+    font-size: 1.25rem;
   }
   .paragraph {
     font-size: 0.875rem;
@@ -245,11 +249,12 @@
     font-size: 1.275rem;
     line-height: 1.3;
   }
-
+  .heading-md{
+    font-size: 1rem;
+  }
   .heading-llg{
     font-size: 0.9rem;
   }
-
   .subhead_sm {
     font-size: 0.9rem;
   } 
