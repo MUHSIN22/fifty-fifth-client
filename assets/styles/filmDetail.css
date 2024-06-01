@@ -43,6 +43,13 @@
   border-radius: 3.6rem;
   padding: 1rem 2rem;
 }
+.video_play_button span{
+  margin-top: 2px;
+}
+
+.scene_description_wrapper h1{
+font-size: 1.7rem;
+}
 /* ---banner section end */
 
 .film_details_description_container {
@@ -59,9 +66,12 @@
 .film_details_description_main {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  gap: 3rem;
+  gap: 5rem;
 }
 
+.description_main_head{
+  font-size: 2.1rem;
+}
 .description_service_list_container {
   display: flex;
   flex-direction: column;
@@ -72,6 +82,7 @@
   display: flex;
   gap: 0.3rem;
   color: var(--color-white);
+  font-family: var(--font-neue);
 }
 
 /* film details description end */
@@ -102,20 +113,18 @@
 
 .scene_description_container{
 
-    width: 100%;
-}
-
-.scene_description_main{
     display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    align-items: center;
-   
+    justify-content: center;
 }
 
-.scene_para{
-   width: 35%;
+.scene_description_wrapper{
+  width: 45%;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
 }
+
+
 /* <!---------------------------- scene description end ---------------------> */
 
 
@@ -149,13 +158,14 @@ display: grid;
 grid-template-columns: 3fr 1fr;
 gap: 2rem;
 }
+
 .credit_header_container{
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 .credit_header{
-  max-width: 50%;
+  max-width: 70%;
   font-size: 1.6rem;
 }
 

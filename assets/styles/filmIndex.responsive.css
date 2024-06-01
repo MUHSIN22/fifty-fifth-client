@@ -19,6 +19,28 @@
 .film_content_container{
     padding-bottom: 1.5rem;
 }
+
+.our_films_head{
+    margin-top: 1rem;
+}
+.film_index_main{
+    gap: 1rem;
+}
+
+.film_category_container{
+    padding-bottom: 1rem;
+}
+.film_display_container{
+    padding: 1rem 0;
+    gap: 1rem;
+}
+.film_button_wrapper{
+    margin-top: 0;
+}
+.film_button_wrapper button{
+    margin-bottom: 0.5rem;
+}
+
 }
 
 @media (max-width:450px) {
