@@ -150,9 +150,8 @@
 }
 /* end credit section start ---- */
 
-.film_credit_grand_container {
-  height: 100vh;
-  overflow-y: auto;
+.film_credit_grand_container{
+  padding-bottom: 0;
 }
 .film_credit_container {
   display: grid;
