@@ -1,0 +1,64 @@
+@media only screen and (max-width: 1024px) {
+  .ladder {
+    width: 2rem;
+  }
+  .ladder::before {
+    background-size: 100% 8%;
+  }
+  .about-banner {
+    padding-bottom: 5rem;
+  }
+  .about-banner-content {
+    padding: 10rem 10%;
+  }
+  .about-para{
+    padding-bottom: 5rem;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+    .section-services {
+        gap: 2rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+      }
+}
+
+@media only screen and (max-width: 500px) {
+  .ladder {
+    width: 1.5rem;
+  }
+  .about-banner-content {
+    padding: 5rem 1rem;
+  }
+  .ladder::before {
+    background-size: 100% 10%;
+  }
+  .about-banner {
+    padding-bottom: 3rem;
+  }
+  .about-para {
+    max-width: 80%;
+    padding-bottom: 3rem;
+  }
+  .section-services header h3 {
+    max-width: 100%;
+  }
+  .service-accordion{
+    padding: 1rem 0;
+  }
+  .accordion-content {
+    padding-left: 2.25rem;
+    max-width: 100%;
+  }
+  .service-accordion[data-activity="active"] .accordion-content {
+    padding-top: 1rem;
+  }
+  .service-accordion .collapse-icon{
+    width: 1.5rem;
+    height: auto;
+  }
+  .accordion-header {
+    gap: 1rem;
+  }
+}
