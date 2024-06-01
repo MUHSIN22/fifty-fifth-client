@@ -1,0 +1,146 @@
+@media only screen and (max-width: 1024px) {
+  .ladder {
+    width: 2rem;
+  }
+  .ladder::before {
+    background-size: 100% 8%;
+  }
+  .about-banner {
+    padding-bottom: 5rem;
+  }
+  .about-banner-content {
+    padding: 10rem 10%;
+  }
+  .about-para {
+    padding-bottom: 5rem;
+  }
+}
+
+@media only screen and (max-width: 991.89px) {
+  .teams-section {
+    padding: 3rem 3rem;
+  }
+  .teams-section header {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .section-services {
+    gap: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .teams-section {
+    padding: 3rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .ladder {
+    width: 1.5rem;
+  }
+  .about-banner-content {
+    padding: 5rem 1rem;
+  }
+  .ladder::before {
+    background-size: 100% 10%;
+  }
+  .about-banner {
+    padding-bottom: 3rem;
+  }
+  .about-para {
+    max-width: 80%;
+    padding-bottom: 3rem;
+  }
+  .section-services header h3 {
+    max-width: 100%;
+  }
+  .service-accordion {
+    padding: 1rem 0;
+  }
+  .accordion-content {
+    padding-left: 2.25rem;
+    max-width: 100%;
+  }
+  .service-accordion[data-activity="active"] .accordion-content {
+    padding-top: 1rem;
+  }
+  .service-accordion .collapse-icon {
+    width: 1.5rem;
+    height: auto;
+  }
+  .accordion-header {
+    gap: 1rem;
+  }
+
+  .hide-sm {
+    display: none !important;
+  }
+  .clients-logo {
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-flow: column;
+    column-gap: 1.5rem;
+  }
+  .client-logo-img {
+    width: 4rem;
+    max-width: none;
+  }
+  .marquee-wrapper {
+    display: block;
+    width: 90vw;
+    position: relative;
+  }
+  .marquee-wrapper::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 4rem;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(241, 235, 221);
+    background: linear-gradient(
+      90deg,
+      rgba(241, 235, 221, 1) 0%,
+      rgba(241, 235, 221, 0) 31%
+    );
+    z-index: 10;
+  }
+  .marquee-wrapper::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 4rem;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background: rgb(241, 235, 221);
+    background: linear-gradient(
+      270deg,
+      rgba(241, 235, 221, 1) 0%,
+      rgba(241, 235, 221, 0) 50%
+    );
+    z-index: 10;
+  }
+  .clients-section {
+    gap: 2.5rem;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+  }
+  .teams-section {
+    padding: 1rem 1rem;
+    gap: 3rem;
+}
+  .teams-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #574c3e56;
+  }
+  .teams-row a{
+    justify-self: start;
+  }
+}

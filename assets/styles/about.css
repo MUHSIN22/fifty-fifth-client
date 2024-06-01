@@ -1,0 +1,235 @@
+/*================================
+    1. Video Attatchement
+================================== */
+.attached-video-container {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.attached-video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: grayscale(0.2) brightness(0.15);
+}
+
+/*================================
+    2. About main container
+================================== */
+.about-page-container {
+  position: relative;
+  z-index: 10;
+}
+.about-page-container header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.about-page-container .bullet-subheading::before {
+  background: var(--color-text-dark);
+}
+.about-page-container ~ footer{
+    position: relative;
+    z-index: 10;
+}
+
+/*================================
+    3. About Banner
+================================== */
+.about-banner {
+  display: flex;
+  align-items: stretch;
+  padding-top: 1rem;
+  padding-bottom: 10rem;
+  color: var(--color-primary-200);
+}
+.about-banner .bullet-subheading::before {
+  background: var(--color-primary-200);
+}
+.ladder {
+  width: 3rem;
+  position: relative;
+  border: 1px solid var(--color-primary-200);
+  border-top: none;
+}
+.ladder::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(
+      to bottom,
+      var(--color-primary-200) 1px,
+      transparent 1px
+    )
+    repeat-y;
+  background-size: 100% 10%;
+}
+.about-banner-content {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 10;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid var(--color-primary-200);
+  border-right: 0;
+  border-left: 0;
+  padding: 15rem 10%;
+  text-align: center;
+}
+.about-banner-content p {
+  color: var(--color-primary-200);
+}
+.about-banner-content p::before {
+  background: var(--color-primary-200);
+}
+
+/*================================
+    4. About Content
+================================== */
+.about-para {
+  max-width: 80%;
+  color: var(--color-primary-200);
+  font-family: var(--font-acma);
+  margin: auto;
+  font-weight: 400;
+  padding-bottom: 10rem;
+}
+
+/*================================
+    4. Services Section
+================================== */
+.section-services {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  background: var(--color-primary-200);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.section-services header h3 {
+  max-width: 70%;
+}
+.section-services .bullet-subheading::before {
+  background: var(--color-text-dark);
+}
+
+.service-accordion-container {
+  border-top: 1px solid var(--color-dark);
+}
+.service-accordion {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--color-dark);
+}
+.accordion-clickable {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accordion-clickable h6 {
+  font-weight: 400;
+}
+.accordion-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.service-accordion .collapse-icon {
+  cursor: pointer;
+}
+.accordion-content {
+  padding-left: 3.5rem;
+  max-width: 80%;
+  height: 0;
+  opacity: 0;
+  padding-top: 0;
+}
+.service-accordion[data-activity="active"] .accordion-content {
+  padding-top: 2rem;
+  opacity: 1;
+  height: max-content;
+  max-height: 50rem;
+}
+.service-accordion[data-activity="active"] .collapse-icon {
+  transform: rotate(45deg);
+}
+
+/*================================
+    5. Clients Section
+================================== */
+.clients-section {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  background: var(--color-primary-200);
+  padding-bottom: 5rem;
+}
+.clients-section header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.clients-logo {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 1rem;
+  row-gap: 3rem;
+}
+.client-logo-img {
+  max-width: 90%;
+  height: auto;
+  justify-self: center;
+  align-self: center;
+}
+.marquee-wrapper {
+  display: none;
+}
+
+/*================================
+    6. Sectors Section
+================================== */
+.about-page-container .sectors-section {
+  background: var(--color-white);
+}
+.sectors-section .bullet-subheading::before {
+  background: var(--color-red);
+}
+
+/*================================
+    7. Sectors Section
+================================== */
+.teams-section {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  background: var(--color-white);
+  padding: 4rem 6rem;
+}
+.teams-section .bullet-subheading::before {
+  background: var(--color-red);
+}
+.teams-section header {
+  max-width: 50%;
+}
+.teams-row-container {
+  border-top: 1px solid #574c3e56;
+}
+.teams-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #574c3e56;
+}
+.teams-row a {
+  color: var(--color-text-dark);
+  justify-self: end;
+}

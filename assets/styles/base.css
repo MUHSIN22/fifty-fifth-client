@@ -224,12 +224,13 @@ p {
   font-size: 0.875rem;
 }
 
+
 @media only screen and (max-width: 1024px) {
   .section-spacing-x {
     padding: 0 1rem;
   }
 
-  .secondary_button{
+  .secondary_button {
     padding: 0.6rem 1.3rem;
   }
   .section-spacing-y {
@@ -243,6 +244,4 @@ p {
   .primary_button {
     padding: 0.7rem 1rem;
   }
-  
-
 }
