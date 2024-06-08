@@ -1,3 +1,9 @@
+@media (max-width:1150px) {
+  .blog_poster_container{
+    justify-content: flex-start;
+  }
+}
+
 @media (max-width: 700px) {
   .film_category_container {
     flex-wrap: wrap;

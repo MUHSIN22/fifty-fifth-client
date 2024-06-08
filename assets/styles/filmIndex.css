@@ -42,3 +42,22 @@
 .film_button_wrapper button {
   margin-bottom: 1rem;
 }
+
+
+
+
+/* blog index styless */
+
+
+.blog_poster_container{
+  display: flex;
+  justify-content: flex-end;
+}
+.blog_poster_container img {
+  width: 80%;
+  object-fit: cover;
+  height: 100%;
+  object-position: center;
+  border-radius: 10px;
+ 
+}
