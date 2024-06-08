@@ -1,0 +1,86 @@
+/*==================
+    01 Banner
+==================== */
+.blog-banner {
+  background: url("./../images/blogs/banner.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  color: var(--color-primary-200);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.blog-banner .content-wrapper {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-bottom: 5rem;
+}
+.blog_tags_container {
+  display: flex;
+  gap: 0.5rem;
+}
+.blog_tags {
+  background: rgba(255, 255, 255, 0.3);
+  color: var(--color-white);
+  padding: 0.2rem 0.5rem;
+}
+
+/*=======================
+    01 Page container
+=========================*/
+.blog-page-container {
+  position: relative;
+  z-index: 102;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+.blog-content-section {
+  grid-column: 2/3;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+.blog-content {
+  background: var(--color-white);
+  width: 70%;
+  justify-self: center;
+  align-self: center;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.blog-img {
+  width: 100%;
+  border-radius: 5px;
+  padding-bottom: 1rem;
+}
+.title-and-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+.further-reading-container {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.blog-page-container .card-title-link p {
+  color: var(--color-dark);
+}
+/*=======================
+    03 Footer
+=========================*/
+footer {
+  position: relative;
+  z-index: 102;
+}
