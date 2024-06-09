@@ -10,23 +10,82 @@
 
   <link rel="shortcut icon" type="image/x-icon" href="" />
   <!-- Place favicon.ico in the root directory -->
-<!-- CSS here -->
-<link rel="stylesheet" href="assets/styles/base.css">
-<link rel="stylesheet" href="assets/styles/typography.css">
-<link rel="stylesheet" href="assets/styles/home.css">
-<link rel="stylesheet" href="assets/styles/home.responsive.css">
-<link rel="stylesheet" href="assets/styles/footer.css">
-<link rel="stylesheet" href="assets/styles/footer.responsive.css">
+  <!-- CSS here -->
+  <link rel="stylesheet" href="assets/styles/base.css">
+  <link rel="stylesheet" href="assets/styles/typography.css">
+  <link rel="stylesheet" href="assets/styles/home.css">
+  <link rel="stylesheet" href="assets/styles/home.responsive.css">
+  <link rel="stylesheet" href="assets/styles/footer.css">
+  <link rel="stylesheet" href="assets/styles/footer.responsive.css">
 </head>
 
 <body>
+  <!-- Header component starts -->
+  <nav>
+    <span class="menu-btn"></span>
+    <img src="./assets/images/logo/logo.png" alt="" class="logo-header">
+  </nav>
+  <!-- Header component ends-->
+
+  <!-- Menu Component starts-->
+  <div class="menu-container">
+    <div class="menu-content-wrapper">
+      <span class="menu-close-btn">
+        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line x1="2.04252" y1="0.636925" x2="14.0633" y2="12.6577" stroke="white" />
+          <line x1="1.33541" y1="12.6577" x2="13.3562" y2="0.636862" stroke="white" />
+        </svg>
+      </span>
+      <div class="ladder"></div>
+      <div class="menu-links">
+        <img src="./assets/images/logo/logo.png" alt="fifty-fifth" />
+
+        <div class="menu-items-wrapper">
+          <div class="menu-item">
+            <a class="text-acma text-light">
+              About
+            </a>
+          </div>
+          <div class="menu-item">
+            <a class="text-acma text-light">
+              Films
+            </a>
+          </div>
+          <div class="menu-item journal-menu">
+            <div class="tag-link-wrapper">
+              <a class="text-acma text-light">
+                Journal
+              </a>
+              <div class="tag">
+                <p class="bullet-heading text-pragmatic text-light">New Entry</p>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item">
+            <a class="text-acma text-light">
+              Contact
+            </a>
+          </div>
+        </div>
+
+        <div class="social-links-wrapper">
+          <a href="#" class="social-link paragraph text-neue">INSTAGRAM</a>
+          <a href="#" class="social-link paragraph text-neue">VIMEO</a>
+          <a href="#" class="social-link paragraph text-neue">hello@fifty-fifth.com</a>
+        </div>
+      </div>
+      <div class="ladder"></div>
+    </div>
+  </div>
+  <!-- Menu Component ends-->
+
   <!-- main area part start -->
   <main>
     <!-- banner area start -->
     <section class="banner_area text-pragmatic" style="background: url(assets/images/banner/banner.png);">
-      <div class="button">
+      <!-- <div class="button">
         <a href="#" class="click_here"><img src="assets/images/icon/triangle.svg" alt="triangle"></a>
-      </div>
+      </div> -->
       <div class="banner_navigation">
         <div class="navigation_main">
           <div class="number">02</div>
@@ -67,7 +126,7 @@
           <div class="ladder_element "></div>
           <div class="ladder_element "></div>
           <div class="ladder_element "></div>
-         
+
         </div>
         <div class="showcase_wrapper">
           <div class="welcome_container">
@@ -84,33 +143,33 @@
               <span><img src="./assets//images//icon/primary_button_arrow.svg" alt="arrow" /></span>
             </button>
           </div>
-          
-          
+
+
           <div class="brand_container hidden_in_mobile">
-        
+
             <img src="./assets/images/brands/monpure_brand.png" alt="" />
             <img src="./assets/images/brands/mitsubishi_brand.png" alt="" />
             <img src="./assets/images/brands/cubitis_brand.png" alt="" />
             <img src="./assets/images/brands/deer_brand.png" alt="" />
             <img src="./assets/images/brands/gaytimes_brand.jpeg" alt="" />
-       
+
           </div>
 
           <div class="brand_marque_container">
 
-        
-          <marquee class="hidden_in_desktop_brand_container" direction="left right " >
-          <div class="brand_container ">
-        
-            <img src="./assets/images/brands/monpure_brand.png" alt="" />
-            <img src="./assets/images/brands/mitsubishi_brand.png" alt="" />
-            <img src="./assets/images/brands/cubitis_brand.png" alt="" />
-            <img src="./assets/images/brands/deer_brand.png" alt="" />
-            <img src="./assets/images/brands/gaytimes_brand.jpeg" alt="" />
-       
+
+            <marquee class="hidden_in_desktop_brand_container" direction="left right ">
+              <div class="brand_container ">
+
+                <img src="./assets/images/brands/monpure_brand.png" alt="" />
+                <img src="./assets/images/brands/mitsubishi_brand.png" alt="" />
+                <img src="./assets/images/brands/cubitis_brand.png" alt="" />
+                <img src="./assets/images/brands/deer_brand.png" alt="" />
+                <img src="./assets/images/brands/gaytimes_brand.jpeg" alt="" />
+
+              </div>
+            </marquee>
           </div>
-          </marquee>
-        </div>
         </div>
         <div class="ladder_container">
           <div class="ladder_element"></div>
@@ -259,66 +318,66 @@
 
 
 
-      <!-- card3 start -->
-      <section class="film_card_container ">
-        <div class="film_card_wrapper film_card_wrapper_third_card">
-          <div class="card_header_wrapper">
-            <h1 class="heading-lg">Apre - 5 to 5</h1>
-            <div class="header_brands_container">
-              <img src="./assets//images//brands/apre.png" alt="fifty-fifth-original" />
-              <!-- <img src="./assets//images//brands/restless.png" alt="restless" /> -->
-            </div>
-          </div>
-  
-  
-          <div class="film_content_container">
-            <div class="film_details_main_wrapper">
-              <div class="film_details_inner_wrapper">
-                <div class="film_about_section_container">
-                  <p class="bullet-subheading_brown text-pragmatic">ABOUT</p>
-                  <p class="subhead_sm text-neue about_text">
-                    Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus
-                    porttitor. Duis mollis, est non.
-                  </p>
-                </div>
-  
-                <div class="sector_year_container">
-                  <div>
-                    <p class="text-neue paragraph">Sector:</p>
-                    <p class="subhead_sm text-neue">Commercial</p>
-                  </div>
-                  <div>
-                    <p class="text-neue paragraph">Year:</p>
-                    <p class="subhead_sm">2023</p>
-                  </div>
-                </div>
-  
-                <div class="film_tags_container ">
-                  <p class="film_tags text-neue paragraph-sm">Story Boarding</p>
-                  <p class="film_tags text-neue paragraph-sm">Story Boarding</p>
-                  <p class="film_tags text-neue paragraph-sm">Story Boarding</p>
-                  <p class="film_tags paragraph-sm">...</p>
-                </div>
-              </div>
-  
-              <div class="button_wrapper">
-                <button class="secondary_button paragraph-xs">
-                  Learn More
-                  <span><img src="./assets//images//icon/primary_button_arrow.svg" alt="arrow" /></span>
-                </button>
-              </div>
-  
-            </div>
-  
-  
-            <div class="film_poster_container">
-              <img src="./assets//images/films/apre.png" alt="" />
-            </div>
-  
+    <!-- card3 start -->
+    <section class="film_card_container ">
+      <div class="film_card_wrapper film_card_wrapper_third_card">
+        <div class="card_header_wrapper">
+          <h1 class="heading-lg">Apre - 5 to 5</h1>
+          <div class="header_brands_container">
+            <img src="./assets//images//brands/apre.png" alt="fifty-fifth-original" />
+            <!-- <img src="./assets//images//brands/restless.png" alt="restless" /> -->
           </div>
         </div>
-      </section>
-      <!-- card3 end -->
+
+
+        <div class="film_content_container">
+          <div class="film_details_main_wrapper">
+            <div class="film_details_inner_wrapper">
+              <div class="film_about_section_container">
+                <p class="bullet-subheading_brown text-pragmatic">ABOUT</p>
+                <p class="subhead_sm text-neue about_text">
+                  Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus
+                  porttitor. Duis mollis, est non.
+                </p>
+              </div>
+
+              <div class="sector_year_container">
+                <div>
+                  <p class="text-neue paragraph">Sector:</p>
+                  <p class="subhead_sm text-neue">Commercial</p>
+                </div>
+                <div>
+                  <p class="text-neue paragraph">Year:</p>
+                  <p class="subhead_sm">2023</p>
+                </div>
+              </div>
+
+              <div class="film_tags_container ">
+                <p class="film_tags text-neue paragraph-sm">Story Boarding</p>
+                <p class="film_tags text-neue paragraph-sm">Story Boarding</p>
+                <p class="film_tags text-neue paragraph-sm">Story Boarding</p>
+                <p class="film_tags paragraph-sm">...</p>
+              </div>
+            </div>
+
+            <div class="button_wrapper">
+              <button class="secondary_button paragraph-xs">
+                Learn More
+                <span><img src="./assets//images//icon/primary_button_arrow.svg" alt="arrow" /></span>
+              </button>
+            </div>
+
+          </div>
+
+
+          <div class="film_poster_container">
+            <img src="./assets//images/films/apre.png" alt="" />
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- card3 end -->
     <!--film card Section End -->
 
 
@@ -326,7 +385,7 @@
     <section class="approach_service_container">
       <div class="approach_service_main">
         <div class="approach_container">
-       
+
           <p class="bullet-subheading  text-pragmatic">Approach</p>
 
           <p class="approach_content">
@@ -338,7 +397,7 @@
         </div>
 
         <div class="service_container">
-    
+
           <p class="bullet-subheading  text-pragmatic">Services</p>
           <div class="service_list heading-sm">
             <p>Creative Development</p>
@@ -515,5 +574,20 @@
   </footer>
   <!-- Footer area end -->
 </body>
+
+<script>
+  const menuBtn = document.querySelector(".menu-btn")
+  const menuContainer = document.querySelector(".menu-container")
+  const closeBtn = document.querySelector(".menu-close-btn")
+
+  menuBtn.addEventListener("click", () => {
+    menuContainer.style.display = "block"
+  })
+
+  closeBtn.addEventListener("click", () => {
+    menuContainer.style.display = "none"
+  })
+
+</script>
 
 </html>
