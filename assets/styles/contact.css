@@ -9,7 +9,7 @@
 }
 .form_container{
  display: flex;
- justify-content: center;
+ justify-content: flex-start;
 padding: 5rem 8rem 3rem 4.5rem;
 flex-direction: column;
 gap: 2rem;
@@ -32,7 +32,7 @@ width: 100%;
 .image_container img{
 width: 100%;
 object-fit: cover;
-height: 100%;
+height: 100vh;
 }
 
 .input_row{
@@ -40,8 +40,15 @@ height: 100%;
     flex-direction: column;
     gap: 0.5rem;
    padding-bottom: 1.5rem;
-}
 
+}
+.input_row label,
+input,
+select {
+  font-size: 0.9rem;
+  color: var(--color-text-dark);
+  font-family: var(--font-neue);
+}
 .input_row label,input {
     font-weight: 400;
 }

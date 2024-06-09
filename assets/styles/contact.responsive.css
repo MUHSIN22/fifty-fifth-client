@@ -1,68 +1,65 @@
 @media (max-width: 1300px) {
-
-    .form_head_container h1{
-        font-size: 2rem;
-    }
+  .form_head_container h1 {
+    font-size: 2rem;
+  }
 }
 
-@media (max-width:1149px) {
-
-    .form_head_container h1{
-        font-size: 1.8rem;
-    }
-   .form_container{
+@media (max-width: 1149px) {
+  .form_head_container h1 {
+    font-size: 1.8rem;
+  }
+  .form_container {
     padding: 5rem 6rem 3rem 4rem;
-   }
+  }
 }
 
-
-@media (max-width:1000px) {
-
-    .form_head_container h1{
-        font-size: 1.5rem;
-    }
-   .form_container{
+@media (max-width: 1000px) {
+  .form_head_container h1 {
+    font-size: 1.5rem;
+  }
+  .form_container {
     padding: 5rem 5rem 3rem 3rem;
-   }
+  }
 }
 
-@media (max-width:850px) {
-    .form_head_container h1{
-        font-size: 2.8rem;
-    }
+@media (max-width: 850px) {
+  .form_head_container h1 {
+    font-size: 2.8rem;
+  }
 
-    .form_container{
-        padding: 5rem 3rem;
-    }
-   .contact_main{
+  .form_container {
+    padding: 5rem 3rem;
+  }
+  .contact_main {
     display: grid;
     grid-template-columns: 1fr;
-   }
-   .image_container{
+  }
+  .image_container {
     display: none;
-   }
+  }
 }
 
-@media (max-width:650px) {
-    .form_head_container h1{
-        font-size: 2rem;
-    }
-    .form_container{
-        padding: 3rem 2rem;
-    }
+@media (max-width: 650px) {
+  .form_head_container h1 {
+    font-size: 2rem;
+  }
+  .form_container {
+    padding: 3rem 2rem;
+  }
 
-    .input_row label,input,select{
-        font-size: 0.8rem;
-    }
- 
+  .input_row label,
+  input,
+  select {
+    font-size: 0.8rem;
+  }
 }
 
-@media (max-width:480px) {
-    .form_head_container h1{
-        font-size: 1.5rem;
-    }
+@media (max-width: 480px) {
+  .form_head_container h1 {
+    font-size: 1.5rem;
+  }
 
- .button_bg_color{
+  .button_bg_color {
     width: 100%;
- }
+  }
 }
