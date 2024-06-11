@@ -31,11 +31,12 @@
     padding: 5rem 3rem;
   }
   .contact_main {
-    display: grid;
-    grid-template-columns: 1fr;
+   display: flex;
+   flex-direction: column-reverse;
   }
-  .image_container {
-    display: none;
+ 
+  .image_container img{
+    height: 15rem;
   }
 }
 
