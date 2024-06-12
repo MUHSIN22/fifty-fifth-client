@@ -71,6 +71,10 @@
   .banner_container {
     height: 100svh;
   }
+
+  .close_button{
+    padding: 0.3rem 0.5rem;
+  }
   .banner_container h1 {
     font-size: 2rem;
   }

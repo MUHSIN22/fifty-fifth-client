@@ -28,7 +28,7 @@
   }
 
   .form_container {
-    padding: 5rem 3rem;
+    padding: 2rem 3rem;
   }
   .contact_main {
    display: flex;
@@ -45,7 +45,7 @@
     font-size: 2rem;
   }
   .form_container {
-    padding: 3rem 2rem;
+    padding: 2rem 2rem;
   }
 
   .input_row label,

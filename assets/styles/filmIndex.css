@@ -1,5 +1,6 @@
 .film_index_container {
   background: var(--color-primary-200);
+  padding-top: 5rem;
 }
 .film_index_main {
   display: flex;
@@ -47,8 +48,6 @@
 
 
 /* blog index styless */
-
-
 .blog_poster_container{
   display: flex;
   justify-content: flex-end;
