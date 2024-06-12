@@ -276,6 +276,10 @@ nav .menu-btn {
   top: 50%;
 }
 
+.black_menu{
+  border-color: var(--color-text-dark) !important;
+}
+
 /* Menu container */
 .menu-container {
   background: var(--color-red);
