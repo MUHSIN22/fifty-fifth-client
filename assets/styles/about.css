@@ -234,3 +234,7 @@
   color: var(--color-text-dark);
   justify-self: end;
 }
+
+nav{
+  padding-top: 2rem;
+}

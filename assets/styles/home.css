@@ -222,7 +222,6 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 2rem;
- 
 }
 
 .film_details_main_wrapper {
@@ -352,9 +351,11 @@
 }
 .sectors-card-wrapper {
   padding-left: 3rem;
-  overflow: hidden;
+  overflow: scroll;
 }
-
+.sectors-card-wrapper::-webkit-scrollbar {
+  display: none;
+}
 .sectors-card-container {
   display: grid;
   grid-auto-flow: column dense;
