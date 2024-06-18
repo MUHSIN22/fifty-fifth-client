@@ -4,7 +4,7 @@
   }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 769px) {
   .blog-banner {
     position: inherit;
     height: max-content;

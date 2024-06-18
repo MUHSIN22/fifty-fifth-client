@@ -1,4 +1,10 @@
 @media only screen and (max-width: 1024px) {
+  nav{
+    padding-top: 0.5rem;
+  }
+  .about-page-container{
+    padding-top: 3rem;
+  }
   .ladder {
     width: 2rem;
   }
@@ -33,6 +39,9 @@
   }
   .teams-section {
     padding: 3rem 2rem;
+  }
+  .clients-section{
+    padding-top: 2rem;
   }
 }
 
