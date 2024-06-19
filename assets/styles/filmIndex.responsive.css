@@ -4,8 +4,8 @@
   }
 }
 
-@media (max-width: 700px) {
-
+@media (max-width: 700px) 
+{
   .film_index_container{
     padding-top: 4rem;
   }
@@ -32,7 +32,7 @@
     margin-top: 1rem;
   }
   .film_index_main {
-    gap: 1rem;
+    gap: 2rem;
   }
 
   .film_category_container {

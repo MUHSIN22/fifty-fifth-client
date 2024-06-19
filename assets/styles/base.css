@@ -171,6 +171,11 @@ p {
   padding-bottom: 3rem;
 }
 
+
+.no-scroll {
+  overflow: hidden;
+}
+
 .bullet-subheading_brown {
   font-size: 0.75rem;
   display: flex;

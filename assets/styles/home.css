@@ -199,7 +199,7 @@
   background: var(--color-primary-500);
 }
 
-.film_card_container h1 {
+.film_card_container h2 {
   font-family: var(--font-acma);
   color: var(--color-text-dark);
 }

@@ -1,46 +1,46 @@
-.contact_container{
-    width: 100%;
+.contact_container {
+  width: 100%;
 }
 
-.contact_main{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
+.contact_main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-.form_container{
- display: flex;
- justify-content: flex-start;
-padding: 5rem 8rem 3rem 4.5rem;
-flex-direction: column;
-gap: 2rem;
-width: 100%;
-}
-
-.form_head_container p{
-    font-weight: 400;
+.form_container {
+  display: flex;
+  justify-content: flex-start;
+  padding: 5rem 8rem 3rem 4.5rem;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
 }
 
-.form_head_container h1{
-    font-size: 2.8rem;
-}
-.form_head_container{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+.form_head_container p {
+  font-weight: 400;
 }
 
-.image_container img{
-width: 100%;
-object-fit: cover;
-height: 100vh;
+.form_head_container h1 {
+  font-size: 2.8rem;
+}
+.form_head_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
-.input_row{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-   padding-bottom: 1.5rem;
+.image_container img {
+  width: 100%;
+  object-fit: cover;
+    height: 100%;
+    object-position: top;
+  
+}
 
+.input_row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-bottom: 1.5rem;
 }
 .input_row label,
 input,
@@ -49,10 +49,11 @@ select {
   color: var(--color-text-dark);
   font-family: var(--font-neue);
 }
-.input_row label,input {
-    font-weight: 400;
+.input_row label,
+input {
+  font-weight: 400;
 }
 
-.button_bg_color{
-    background: var(--color-primary-100);
+.button_bg_color {
+  background: var(--color-primary-100);
 }
