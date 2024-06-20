@@ -168,6 +168,7 @@
   gap: 1rem;
   position: sticky;
   position: -webkit-sticky;
+  padding-top: 1rem;
   z-index: 10;
   top: 0;
   height: fit-content;
