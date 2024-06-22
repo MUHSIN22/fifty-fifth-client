@@ -199,6 +199,10 @@
   background: var(--color-primary-500);
 }
 
+.button_wrapper{
+  margin-bottom: 1rem;
+}
+
 .film_card_container h2 {
   font-family: var(--font-acma);
   color: var(--color-text-dark);
@@ -250,7 +254,11 @@
   max-width: 75%;
 }
 
-.film_poster_container img {
+.film_poster_container{
+  position: relative;
+}
+
+.film_poster{
   width: 100%;
   object-fit: cover;
   height: 100%;
@@ -258,6 +266,20 @@
   border-radius: 10px;
 }
 
+.badge_container{
+  position: absolute;
+  left: 1rem;
+    top: 1rem;
+    display: flex;
+    right: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pic_badge_wrapper{
+  display: flex;
+  gap: 0.5rem;
+}
 .sector_year_container {
   display: flex;
   width: 70%;
@@ -389,3 +411,4 @@
   height: auto;
   object-fit: contain;
 }
+
