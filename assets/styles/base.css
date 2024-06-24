@@ -171,6 +171,11 @@ p {
   padding-bottom: 3rem;
 }
 
+
+.no-scroll {
+  overflow: hidden;
+}
+
 .bullet-subheading_brown {
   font-size: 0.75rem;
   display: flex;
@@ -303,6 +308,10 @@ nav .menu-btn {
   position: relative;
   border: 1px solid var(--color-primary-200);
   border-top: none;
+}
+
+.hidden{
+  display: none !important;
 }
 .menu-container .ladder::before {
   content: "";

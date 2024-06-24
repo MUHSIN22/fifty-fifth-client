@@ -15,7 +15,7 @@
 
   <body>
     <!-- Header component starts -->
-    <nav>
+    <nav class="filmDetail_header">
       <span class="menu-btn"></span>
       <img src="./assets/images/logo/logo.png" alt="" class="logo-header" />
     </nav>
@@ -92,6 +92,7 @@
       <section class="film_details_banner_container">
         <div class="film_details_banner_main">
           <div class="banner_container">
+            <!-- //modaal -->
             <div id="video_container" class="video_display_container">
               <span id="closing_button" class="close_button">
                 <svg
@@ -141,6 +142,7 @@
               </div>
             </div>
 
+            <!-- //modaal -->
             <div class="banner_image">
               <img
                 src="./assets/images/films/restless_bg.png"
@@ -481,9 +483,11 @@
       const playButtonMain = document.getElementById("play_button");
       const video = document.getElementById("video_player");
       const closeButton = document.getElementById("closing_button");
+
       // Play video on button click
       playButton.addEventListener("click", function () {
         videoContainer.style.display = "flex";
+        document.body.classList.add("no-scroll");
       });
 
       playButtonMain.addEventListener("click", function () {
@@ -498,10 +502,13 @@
       closeButton.addEventListener("click", function () {
         console.log("clicked");
         videoContainer.style.display = "none";
+        document.body.classList.remove("no-scroll");
       });
+
       video.addEventListener("click", function () {
         console.log("clicked");
         videoContainer.style.display = "none";
+        document.body.classList.remove("no-scroll");
       });
     </script>
   </body>

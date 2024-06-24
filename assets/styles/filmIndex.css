@@ -5,7 +5,7 @@
 .film_index_main {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 4rem;
 }
 .our_films_head {
   max-width: 60%;
@@ -33,7 +33,7 @@
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  padding: 3rem 0;
+  padding: 4rem 0;
 }
 
 .film_button_wrapper {
